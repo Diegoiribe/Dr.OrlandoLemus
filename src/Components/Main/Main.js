@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import doctor from '../../img/doctor2.webp'
 import { colorPrimario, colorSecundario, fondoPrimario } from '../UI/Variables'
+import img9 from '../../img/img9.png'
 
 const MainContainer = styled.div`
   display: grid;
@@ -34,14 +34,14 @@ const H2MAinOne = styled.h2`
 const MainDivTwo = styled.div`
   grid-column: 2/3;
   grid-row: 2/4;
-  background: url(${doctor});
+  background: url(https://scontent.fcul1-1.fna.fbcdn.net/v/t39.30808-6/312916261_450165270572863_8040342826820066430_n.png?_nc_cat=1&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeF5sLrqSgDRijTb_5QnO1QtM75k5m-XNR8zvmTmb5c1Hx5EQkQ5fCJyLYKvsMUAzLW6-eNJEvma8q_qtZmNx1ZW&_nc_ohc=bmO5IYlRcdAAX_qv2B0&_nc_oc=AQmuBnf45zEn-L3ZfUnizNyonqi8H5tDObwVmoci0rJh2uNGjmxWWcgA4LDJPSeY1O8&_nc_ht=scontent.fcul1-1.fna&oh=00_AfDpozsqyLV-lW4-pnQZ7FujmdXoy7kitcU0ewjJCimj8w&oe=655698EB);
   background-position: center right 26%;
   background-size: cover;
   border-radius: 10px;
   margin: 1rem;
   @media (max-width: 980px) {
-    background: url(https://static.wixstatic.com/media/7a7b29_74c0f629aa3c4a5b846612b59e8aae76~mv2.jpg/v1/fill/w_788,h_809,al_c,q_85,enc_auto/7a7b29_74c0f629aa3c4a5b846612b59e8aae76~mv2.jpg);
-    background-position: center;
+    background: url(${img9});
+    background-position: center left 47%;
     background-size: cover;
     background-repeat: no-repeat;
     margin: 1rem 0;
